@@ -25,6 +25,6 @@ EXPOSE 50000
 
 RUN mkdir -p /opt/jenkins && \
         cd /opt/jenkins && \
-        wget http://mirrors.jenkins-ci.org/war/latest/jenkins.war
+        wget https://repo.jenkins-ci.org/public/org/jenkins-ci/main/jenkins-war/2.99/jenkins-war-2.99.war
 
 CMD java -jar /opt/jenkins/jenkins.war --prefix=$PREFIX
