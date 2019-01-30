@@ -10,5 +10,5 @@ jenkins:
 
 jenkins_data:
   image: resin/rpi-raspbian
-  volume:
+  volumes:
     - /jenkins_config
