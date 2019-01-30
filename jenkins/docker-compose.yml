@@ -1,4 +1,4 @@
-sia_jenkins:
+jenkins:
   build: .
   environment:
     JAVA_OPTS: "-Djava.awt.headless=true"
